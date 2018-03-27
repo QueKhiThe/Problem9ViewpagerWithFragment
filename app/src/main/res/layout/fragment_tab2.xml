@@ -13,8 +13,9 @@
         android:orientation="vertical">
 
         <ImageView
+            android:scaleType="centerCrop"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:src="@drawable/showbiz5" />
 
         <TextView
@@ -37,13 +38,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_weight="1"
+            android:orientation="vertical"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <ImageView
+                android:scaleType="centerCrop"
                 android:id="@+id/hinh1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,15 +70,17 @@
 
 
 
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_weight="1"
+            android:orientation="vertical"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <ImageView
+                android:scaleType="centerCrop"
                 android:id="@+id/hinh2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -99,7 +104,7 @@
 
 
 
-        </RelativeLayout>
+        </LinearLayout>
 
 
     </LinearLayout>
